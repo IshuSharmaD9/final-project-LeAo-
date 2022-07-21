@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.nav-bar img{
+	float:left;
+	padding-right:20px;
+    ;
+	
+	
+}
+.nav-bar button:hover{
+	background: #ffe2e2;
+	color: #000000;
+}
+
+.nav-bar button{
+	margin-left:300px;
+	padding:0px 2px 2px 0px;
+	font-size: 28PX;
+	text-align: center;
+	text-decoration:none;
+	background-color: #ba771a;
+	border-radius:10px ;
+	text-size-adjust:inherit;
+}
+.nav-bar{
+    float:right;
+    list-style: none;
+    width:99%;
+	z-index: 999;
+	background-color: rgb(5, 5, 5);
+    border-radius: 20px;
+    position:fixed;
+    
+    
+}
+.nav-bar li{
+    display:inline-block;  
+}
+.nav-bar li a img{
+	height:50px;
+	width:80px;
+	padding-left:9px;;
+    font-family: poppins;
+    font-size:35px; 
+   
+}
+.nav-bar li a{
+    color:#b8802f;
+    text-decoration: none;
+	padding-top: 5px;
+    padding:9px 2px 2px ;
+    font-family: poppins;
+    font-size:30px; 
+    padding:25px;
+	
+    
+}
+
+.nav-bar li a:hover{
+
+
+    
+    color:#da9f4c;
+    text-decoration:underline;
+    font-family: poppins;    
+}
+.About-section{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("../images/Untitled\ design\ \(2\).png");
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	padding-top:100px;
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 80%;
+	height:600px;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+	color: black;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:rgb(65, 55, 55);
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}

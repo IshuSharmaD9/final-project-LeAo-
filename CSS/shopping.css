@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 14, 14);
+}
+.section ul{
+    display: flex;
+    flex-direction: row;
+    margin : 0px 25px;
+}
+.section ul li{
+    list-style: none;
+    margin : 35px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : rgb(255, 255, 255);
+}
+.section ul li img{
+    height : 27vh;
+    width : 15vw;
+    border : 2px solid rgb(255, 191, 0);
+    border-radius : 25px;
+}
