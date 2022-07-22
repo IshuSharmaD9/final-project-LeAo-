@@ -46,16 +46,7 @@ header{
 	color: #000000;
 }
 
-.nav-bar button{
-	margin-left:300px;
-	padding:0px 2px 2px 0px;
-	font-size: 28PX;
-	text-align: center;
-	text-decoration:none;
-	background-color: #ba771a;
-	border-radius:10px ;
-	text-size-adjust:inherit;
-}
+
 .nav-bar{
     float:right;
     list-style: none;
@@ -71,11 +62,12 @@ header{
     display:inline-block;  
 }
 .nav-bar li a img{
-	height:50px;
-	width:80px;
+	height:60px;
+	width: 90px;
 	padding-left:9px;;
     font-family: poppins;
     font-size:35px; 
+    
    
 }
 .nav-bar li a{
@@ -85,7 +77,8 @@ header{
     padding:9px 2px 2px ;
     font-family: poppins;
     font-size:30px; 
-    padding:25px;
+   text-align: center;
+    margin-left: 120px;
 	
     
 }
@@ -188,6 +181,17 @@ header{
     font-weight: 300;
     border-radius: 10px;
 }
+
+/*-----------------------------------------------------------  CSS CODING (About section) ----------------------------------------------------------*/ 
+Section .Card .Images img{
+    height:200px;
+    width:200px;
+    border-radius:10%;
+    padding:3px;
+    background: #da9f4c;
+    
+}
+
 
 
 
@@ -338,7 +342,7 @@ header{
 /*------------------------------------------------------ CSS Coding(Team SECTION) -------------------------------------------------*/
 
 .team-Section{
-    height:80vh;
+    height:100vh;
     
     align-items: center;
     justify-content: center;
@@ -347,6 +351,7 @@ header{
   }
 .Section1{
     background-image: url(../images/1.jpg);
+    height:100vh;
 }
 
 .team-Section{
@@ -372,6 +377,7 @@ Section .team-title{
   font-size: 30px;
   text-align: center;
   padding-bottom:40px;
+  padding-top:60px;
   
 
 }
@@ -461,6 +467,7 @@ font-weight: 500;
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  cursor: pointer;
 }
 .Card .button button{
   background-color: #da9f4c;
@@ -470,6 +477,7 @@ font-weight: 500;
   padding:8px 22px;
   border-radius: 20px;
   font-size: 14px;
+  cursor: pointer;
   transition:all 0.3s ease;
   
 }
@@ -491,7 +499,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 150vh;
+    min-height: 80vh;
     padding: 2rem;
 
 }

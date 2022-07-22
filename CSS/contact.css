@@ -47,8 +47,8 @@
     display:inline-block;  
 }
 .nav-bar li a img{
-	height:50px;
-	width:80px;
+	height:60px;
+	width:90px;
 	padding-left:9px;;
     font-family: poppins;
     font-size:35px; 
@@ -61,7 +61,8 @@
     padding:9px 2px 2px ;
     font-family: poppins;
     font-size:30px; 
-    padding:25px;
+    text-align: center;
+    margin-left:120px;
 	
     
 }

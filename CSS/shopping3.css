@@ -1,0 +1,177 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.header{
+    background-color: #bf8d42;
+    background-size: 10px;
+}
+.navbar-nav{
+    color:#000000;
+}
+#navigation-bar a{
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    padding-left:50p;
+    padding:20px;
+    float:left;
+    text-decoration: none;
+    color: #000000;
+    
+}
+#navigation-bar a:hover{
+    text-decoration:underline ;
+    color:#8c6325;
+    position: relative;
+    background-size: 10px;;
+}
+
+.breadcrumb .breadcrumb-item{
+    padding-top: 8px;
+}
+.filter-bar > div {
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.filter-bar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #646870;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .filter-bar img {
+        display: block;
+        margin: 0px auto 4px;
+    }
+}
+
+.property-card {
+    border-color: #b8802f;
+    background-color:#f2ca93;
+    border-radius: 8px;
+    padding: 15px 0px;
+    margin: 0px auto 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.property-card:focus,
+.property-card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        padding-bottom: 12px;
+    }
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.star-container i {
+    color:#b8802f;
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.interested-container {
+    text-align: center;
+}
+
+.interested-container i {
+    color:#da9f4c;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+}
+.property-no{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.property-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.property-address {
+    color:#51432d;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.button-container .btn {
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 140px;
+    float: right;
+    color:black;
+    background-color:#ba771a;
+    border-color: #da9f4c;
+}
+
+/* No Property */
+.no-property-container {
+    margin: 96px auto 144px;
+}
+
+.no-property-container p {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Filter Modal */
+#filter-modal .modal-dialog {
+    max-width: 600px;
+}
+
+#filter-modal .modal-body h5 {
+    color: #777777;
+}
+
+#filter-modal .modal-body hr {
+    margin: 4px 0px;
+}
+
+#filter-modal .modal-body button {
+    font-size: 14px;
+    width: 100px;
+    margin: 16px;
+}
+
+#filter-modal .modal-body .btn-active {
+    color:#ba771a;
+    background-color: #343a40;
+    border-radius: 10px;
+}
+
+#filter-modal .modal-body button i {
+    margin-right: 8px;
+}
+
+#filter-modal .modal-footer button {
+    width: 120px;
+}
