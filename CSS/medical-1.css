@@ -21,6 +21,11 @@
     color: #000000;
     
 }
+.btn{
+    border-radius:10%;
+    color:black;
+    background-color: #c88d35;
+}    
 #navigation-bar a:hover{
     text-decoration:underline ;
     color:#8c6325;
@@ -150,12 +155,12 @@
 }
 
 .rating-criteria-star-container i {
-    color: #66C2BD;
+    color:#8c6325;
     font-size: 12px;
 }
 
 .rating-circle {
-    background-color: #66C2BD;
+    background-color:#8c6325;
     color: white;
     text-align: center;
     height: 160px;
