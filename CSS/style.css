@@ -181,6 +181,9 @@ header{
     font-weight: 300;
     border-radius: 10px;
 }
+@media (max-width: 768px) {
+    
+}
 
 /*-----------------------------------------------------------  CSS CODING (About section) ----------------------------------------------------------*/ 
 Section .Card .Images img{
