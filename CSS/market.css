@@ -13,6 +13,12 @@ body{
     color: #000000;
 }
 
+.nav-item a{
+    margin-left: 10px;;
+    display:inline;
+    font-weight: 500;
+    font-size: 25px;
+}
 
 .shopping-Section .Shopping-container .shop1{
     background-image: url(../images/mukesh.jpg);
@@ -198,6 +204,8 @@ body{
 .image-container {
     text-align: center;
 }
+
+
 
 @media (max-width: 768px) {
     .image-container {
