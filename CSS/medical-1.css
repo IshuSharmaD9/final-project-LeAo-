@@ -3,6 +3,30 @@
     object-fit: cover;
 }
 
+.header{
+    background-color: #bf8d42;
+    background-size: 10px;
+}
+.navbar-nav{
+    color:#000000;
+}
+#navigation-bar a{
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    padding-left:50px;
+    padding:20px;
+    float:left;
+    text-decoration: none;
+    color: #000000;
+    
+}
+#navigation-bar a:hover{
+    text-decoration:underline ;
+    color:#8c6325;
+    position: relative;
+    background-size: 10px;;
+}
 .property-summary {
     padding: 20px;
 }

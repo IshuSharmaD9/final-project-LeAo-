@@ -5,6 +5,14 @@
 body{
     background-color: #e9b76c;
 }
+.heading{
+    text-decoration: underline;
+    padding-top:90px;
+    text-align: center;
+    font-size: larger;
+    color: #000000;
+}
+
 
 .shopping-Section .Shopping-container .shop1{
     background-image: url(../images/mukesh.jpg);
@@ -143,17 +151,9 @@ body{
     align-items:center;
     border-radius: 10px;
   }
-#navigation-bar a button{
-    
-    border-radius: 10px;
-}
 
-#navigation-bar a:hover{
-    text-decoration:underline ;
-    color:#8c6325;
-    position: relative;
-    background-size: 10px;;
-}
+
+
 
 .breadcrumb .breadcrumb-item{
     padding-top: 8px;
